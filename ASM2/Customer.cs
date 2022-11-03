@@ -15,7 +15,7 @@ public class Customer : User
 
     public void displayInformation()
     {
-        
+        Console.WriteLine($"Customer ID: {customerID}, Customer Name: {customerName}, Customer Phone {customerPhone}");
     }
 
     public override void login()
