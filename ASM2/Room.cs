@@ -41,6 +41,6 @@ public class Room
 
     public void roomInformation()
     {
-        
+        Console.WriteLine($"Room ID: {roomID}, Room Type: {roomType}, Room Price {roomPrice}, Room Status: {roomStatus}");
     }
 }
